@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js 展厅场景</title>
+    <link rel="stylesheet" href="/threejs-exhibition-pages/css/style.css" />
+    <script type="module" crossorigin src="/threejs-exhibition-pages/assets/index-C9y08hd1.js"></script>
+  </head>
+  <body>
+    <canvas id="viewport"></canvas>
+    <div id="loading">
+      <span id="loadingText">加载场景中…</span>
+      <div id="loadingBar">
+        <div id="loadingBarFill"></div>
+      </div>
+      <span id="loadingPercent">0%</span>
+    </div>
+    <div id="error"></div>
+
+    <header id="galleryHeader">
+      <button id="menuBtn" type="button" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <h1>艺术馆</h1>
+      <button id="popupClose" type="button" aria-label="关闭">×</button>
+    </header>
+
+    <div id="exhibitPopup">
+      <div class="exhibit-card">
+        <h2 id="exhibitTitle"></h2>
+        <p id="exhibitDescription"></p>
+      </div>
+    </div>
+
+  </body>
+</html>
