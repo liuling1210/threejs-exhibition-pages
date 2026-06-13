@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Three.js 展厅场景</title>
     <link rel="stylesheet" href="/threejs-exhibition-pages/css/style.css" />
-    <script type="module" crossorigin src="/threejs-exhibition-pages/assets/index-Djxpd5Qo.js"></script>
+    <script type="module" crossorigin src="/threejs-exhibition-pages/assets/index-CYPm_cSb.js"></script>
   </head>
   <body>
     <canvas id="viewport"></canvas>
@@ -15,6 +15,7 @@
         <div id="loadingBarFill"></div>
       </div>
       <span id="loadingPercent">0%</span>
+      <button id="enterBtn" type="button" aria-label="点击进入展馆">进入展馆</button>
     </div>
     <div id="error"></div>
 
@@ -32,6 +33,8 @@
         <p id="exhibitDescription"></p>
       </div>
     </div>
+
+    <audio id="bgMusic" autoplay loop preload="auto" playsinline hidden></audio>
 
   </body>
 </html>
